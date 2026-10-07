@@ -1,0 +1,8 @@
+/* NutriPlan functional layer - original design is kept in index.css */
+#meal-details,#products-section,#foodlog-section{display:none}
+.toast-notification{z-index:9999}
+@media(max-width:640px){
+  #products-section .flex.gap-3{flex-wrap:wrap}
+  #products-section #search-product-btn,#products-section #lookup-barcode-btn{width:100%}
+  #foodlog-section .text-right{display:none}
+}
